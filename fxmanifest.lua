@@ -13,3 +13,7 @@ server_scripts {
     'sv.lua',
 }
 
+dependencies {
+    'oxmysql',    
+    'es_extended',  
+}
