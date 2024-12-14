@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS player_armor (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    player_id VARCHAR(50) NOT NULL,
+    has_armor BOOLEAN DEFAULT FALSE
+);
